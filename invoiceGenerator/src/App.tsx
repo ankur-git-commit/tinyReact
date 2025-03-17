@@ -1,7 +1,11 @@
-import BackgroundMain from './components/BackgroundMain'
+import BackgroundMain from './components/BackgroundMain';
 
 function App() {
- return <BackgroundMain />
+  return (
+    <div>
+      <BackgroundMain />
+    </div>
+  );
 }
 
-export default App
+export default App;
