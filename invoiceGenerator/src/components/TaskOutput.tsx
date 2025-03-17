@@ -54,12 +54,14 @@ export default function TaskOutput({
 
 const className = {
   taskOutputWrapper: `flex flex-col w-full max-w-2xl mx-auto px-6 mt-10`,
-  taskOutputContainer: `flex flex-row justify-between text-[#D5D4D8] text-base`,
-  taskListContainer: `flex flex-col gap-6 py-8 border-b-1 b-[#C3C6DB]`,
+  taskOutputContainer: `flex flex-row justify-between text-[#D5D4D8] text-base pr-[20px]`,
+  // taskListContainer: `flex flex-col gap-6 py-8 border-b-1 b-[#C3C6DB]`,
+  taskListContainer: `flex flex-col gap-6 py-8 max-h-[350px] overflow-y-auto border-b border-[#C3C6DB]`,
+
   taskList: `flex flex-row gap-5 items-center text-[#F5F5F5]`,
   taskName: `text-4xl mr-2`,
   removeButton: `text-[#D5D4D8] text-xs cursor-pointer`,
-  priceTag: `ml-auto text-right min-w-[60px] text-4xl text-[#F5F5F5]`,
+  priceTag: `ml-auto text-right min-w-[60px] text-4xl text-[#F5F5F5] pr-[10px]`,
   bottomContainer: `flex flex-row justify-between pt-8 `,
   bottomSection: `flex flex-col gap-5 [#D5D4D8]`,
   Total: `flex flex-col gap-5 items-end [#D5D4D8]`,
