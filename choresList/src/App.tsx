@@ -17,6 +17,7 @@ function App() {
     }
 
     function handleAddChore(e: React.FormEvent<HTMLFormElement>): void {
+        console.log(e)
         const addedChore = inputValue.trim()
 
         if (addedChore) {
