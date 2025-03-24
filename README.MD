@@ -13,7 +13,7 @@ This repository serves as a showcase of React applications that:
 - Follow component-based architecture
 - Use Vite for fast development and optimized builds
 
-The projects range from simple task management tools to more complex applications like invoice generation, all built with the same modern tech stack.
+The projects range from simple task management tools to more complex applications, all built with the same modern tech stack.
 
 ## Getting Started
 
