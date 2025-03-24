@@ -65,5 +65,5 @@ const className = {
   bottomContainer: `flex flex-row justify-between pt-8 `,
   bottomSection: `flex flex-col gap-5 [#D5D4D8]`,
   Total: `flex flex-col gap-5 items-end [#D5D4D8]`,
-  Price: `text-5xl font-bold`
+  Price: `text-5xl font-bold`,
 };
