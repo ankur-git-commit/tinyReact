@@ -1,4 +1,4 @@
-![Add Image](invoice.PNG)
+![Add image](invoice.PNG)
 
 
 # Project Overview
